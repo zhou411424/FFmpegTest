@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/videopath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/mnt/sdcard/external_sd/Movies/Jackson演唱会/1.mp4" />
+    
+    <Button 
+        android:id="@+id/startPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="startPlay"
+        />
+
+</LinearLayout>
